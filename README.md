@@ -309,6 +309,13 @@ This folder contains screenshots of:
 
 Screenshots are intentionally kept in the `assets/` folder to keep the README clean and lightweight.
 
+🔍 **Search Feature**
+
+The search feature is fully implemented and enables users to search for images dynamically via the Pexels API.  
+Demonstration media (screenshots/videos) of the search functionality are available in the **`assets/`** directory.  
+A compiled release APK is included in the **`apk/`** folder and has also been published under the **GitHub Releases** section.
+
+
 
 
 
