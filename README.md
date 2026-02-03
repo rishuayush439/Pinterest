@@ -293,25 +293,12 @@ Day 5: Polish, performance, cleanup
 
 
 
-## 📸 App Screenshots
+<p align="center">
+  <img src="./assets/Home_Screen.jpeg" width="30%" />
+  <img src="./assets/Home_Screen2.jpeg" width="30%" />
+  <img src="./assets/Home_Screen3.jpeg" width="30%" />
+</p>
 
-### 🏠 Home Screen
-![Home Screen](assets/Home_Screen.jpeg)
-![Home Screen 2](assets/Home_Screen2.jpeg)
-![Home Screen 3](assets/Home_Screen3.jpeg)
-
-### 🔐 Clerk Authentication
-![Clerk Auth](assets/clerk_google_access.jpeg)
-
-### 🖼️ Pin Detail
-![Pin Detail](assets/Image_Detail.jpeg)
-![Pin Detail 2](assets/Image_Detail2.jpeg)
-
-### 🔍 Search Screen
-![Search Screen](assets/Search_Screen.jpeg)
-
-### 👤 Profile Screen
-![Profile Screen](assets/Profile_Screen.jpeg)
 
 
 🧾 Assignment Compliance Summary
