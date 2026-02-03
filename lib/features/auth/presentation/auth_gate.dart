@@ -1,25 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:clerk_flutter/clerk_flutter.dart';
-
-// class AuthGate extends StatelessWidget {
-//   final Widget child;
-
-//   const AuthGate({super.key, required this.child});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return ClerkAuthBuilder(
-//       signedInBuilder: (context, _) {
-//         // ✅ User signed in → show app
-//         return child;
-//       },
-//       signedOutBuilder: (context, _) {
-//         // ❌ User signed out → show Clerk Sign In
-//         return const Scaffold(body: Center(child: ClerkSignIn()));
-//       },
-//     );
-//   }
-// }
 
 
 

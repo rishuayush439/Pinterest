@@ -1,15 +1,3 @@
-// import 'package:flutter/material.dart';
-
-// class HomePage extends StatelessWidget {
-//   const HomePage({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return const SafeArea(
-//       child: Center(child: Text('Home Feed', style: TextStyle(fontSize: 18))),
-//     );
-//   }
-// }
 
 
 import 'package:flutter/material.dart';
