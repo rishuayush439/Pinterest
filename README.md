@@ -139,17 +139,17 @@ This structure ensures:
 3:Easy maintenance
 
 
-## 🔐 Authentication (Clerk)
+ 🔐 Authentication (Clerk)
 
 Authentication is handled using **Clerk**, a production-ready authentication solution.
 
-### Why Clerk?
+ Why Clerk?
 - Secure and reliable  
 - Industry-grade authentication  
 - Eliminates custom authentication boilerplate  
 - Allows greater focus on **UI quality and architecture**
 
-### Implementation Details
+ Implementation Details
 - App is wrapped with `ClerkAuth`
 - Authentication gate protects the main application
 - Clerk provides a built-in Sign In UI
@@ -158,16 +158,16 @@ Authentication is handled using **Clerk**, a production-ready authentication sol
 
 ---
 
-## 🌐 API & Data Handling
+ 🌐 API & Data Handling
 
-### Image Source
+ Image Source
 - **Pexels API** is used to fetch curated images
 
-### Networking
+ Networking
 - `dio` is used for HTTP requests
 - Centralized Dio client for consistent configuration
 
-### Caching
+ Caching
 - `cached_network_image` ensures:
   - Disk caching
   - Smooth scrolling experience
@@ -175,7 +175,7 @@ Authentication is handled using **Clerk**, a production-ready authentication sol
 
 ---
 
-## 🔑 Environment Variables & Security
+ 🔑 Environment Variables & Security
 
 To prevent exposing sensitive data:
 
@@ -192,19 +192,19 @@ CLERK_FRONTEND_API=your_frontend_api_key_here
 
 ---
 
-## 🔄 State Management (Riverpod)
+ 🔄 State Management (Riverpod)
 
 Riverpod is used across the application to manage state in a **scalable and predictable** manner.
 
-### ✔ Providers
+ ✔ Providers
 - Used for dependency injection  
 - Handles shared and global state  
 
-### ✔ FutureProvider
+ ✔ FutureProvider
 - Manages asynchronous API calls  
 - Used primarily for the image feed  
 
-### ✔ StateNotifier
+ ✔ StateNotifier
 - Enables explicit state transitions  
 - Supports controller-based business logic  
 
@@ -215,11 +215,11 @@ Riverpod is used across the application to manage state in a **scalable and pred
 
 ---
 
-## 🧭 Navigation
+ 🧭 Navigation
 
 Navigation is implemented using **go_router**.
 
-### Key Features
+ Key Features
 - `ShellRoute` for bottom navigation  
 - Tab-based navigation preserves scroll position  
 - Clean and maintainable route structure  
@@ -227,7 +227,7 @@ Navigation is implemented using **go_router**.
 
 ---
 
-## 🎨 UI & UX Highlights
+ 🎨 UI & UX Highlights
 
 - Pinterest-style masonry grid layout  
 - Hero animation on pin interaction  
@@ -239,7 +239,7 @@ Navigation is implemented using **go_router**.
 
 ---
 
-## 📱 App Flow
+ 📱 App Flow
 
 ```plaintext
 App Launch
@@ -293,11 +293,22 @@ Day 5: Polish, performance, cleanup
 
 
 
-<p align="center">
-  <img src="./assets/Home_Screen.jpeg" width="30%" />
-  <img src="./assets/Home_Screen2.jpeg" width="30%" />
-  <img src="./assets/Home_Screen3.jpeg" width="30%" />
-</p>
+## 📸 App Screenshots
+
+All application screenshots are stored in the **`assets/` directory** of this repository.
+
+📁 Path:
+ assets/
+   
+This folder contains screenshots of:
+- Home feed (masonry layout)
+- Authentication flow
+- Pin detail screen
+- Search screen
+- Profile screen
+
+Screenshots are intentionally kept in the `assets/` folder to keep the README clean and lightweight.
+
 
 
 
@@ -310,6 +321,8 @@ Required Packages	✅
 Performance	✅
 Authentication	✅
 Code Quality	✅
+
+
 🧑‍💻 Author
 
 Ayush Mishra
